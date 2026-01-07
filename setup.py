@@ -1,0 +1,29 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="da_rnaseq",
+    description="Domain Adaptation on gene expression data",
+    author="Kevin Dradjat",
+    url="https://github.com/kdradjat/da_rnaseq",
+    keywords=[
+        "artificial intelligence",
+        "transfer learning",
+        "domain adaptation",
+    ],
+    python_requires=">=3.7",
+    install_requires=["torch>=1.12", 
+                      "tqdm>=4.64", 
+                      'accelerate', 
+                      'beartype',
+                      'torchvision',
+                      'numpy>=1.18.2',
+                      'pandas>=1.0.3',
+                      'keras>=2.3.1',
+                      'argparse>=1.1',
+                      'scikit-learn',
+                      'xgboost',
+                      'tensorflow>=1.15.0'
+                      ],
+    package_dir={"":"src"},
+    packages=["da_rnaseq"]
+)
