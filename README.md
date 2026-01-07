@@ -3,6 +3,7 @@ This repository contains the code used for the experiments in the article "Adver
 The objective is to evaluate the application of Domain Adaptation on gene expression datasets through a deep learning-based framework. <br>
 
 ## Method
+![](figures/archi_v2.png)
 
 ## Datasets
 ### The Cancer Genome Atlas (TCGA)
