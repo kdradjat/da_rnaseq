@@ -1,5 +1,5 @@
 # Domain Adaptation for Knowledge Transfer Across RNA-Seq Datasets
-This repository contains the code used for the experiments in the article "Adversarial Domain Adaptation Enables Knowledge Transfer Acress RNA-Seq Datasets".<br>
+This repository contains the code used for the experiments in the article "Adversarial Domain Adaptation Enables Knowledge Transfer Across RNA-Seq Datasets".<br>
 The objective is to evaluate the application of Domain Adaptation on gene expression datasets through a deep learning-based framework. <br>
 
 ## Method
@@ -13,8 +13,10 @@ The Cancer Genome Atlas ([[TCGA]](https://portal.gdc.cancer.gov/)) collected man
 * molecular characterization data (e.g., gene expression values)
 
 ### All RNA-Seq and ChIP-Seq Sample and Signature Search (ARCHS4)
+ARCHS4 is a pan-tissue dataset containing samples originating from experiences from SRA and GEO. It is composed of diverse samples from experiences that do not only focus on cancer.
 
 ### Genotype Tissue Expression (GTEx)
+GTEx is a large-scale resource that profiles gene expression across multiple human tissues. It contains RNA-Seq data from postmortem tissue samples collected from hundreds of donors.
 
 ## Installation
 ```
